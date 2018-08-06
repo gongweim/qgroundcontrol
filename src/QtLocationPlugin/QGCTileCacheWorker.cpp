@@ -722,6 +722,7 @@ QGCCacheWorker::_importSets(QGCMapTask* mtask)
                         quint64 setID           = query.value("setID").toULongLong();
                         QString mapType         = query.value("typeStr").toString();
                         double  topleftLat      = query.value("topleftLat").toDouble();
+
                         double  topleftLon      = query.value("topleftLon").toDouble();
                         double  bottomRightLat  = query.value("bottomRightLat").toDouble();
                         double  bottomRightLon  = query.value("bottomRightLon").toDouble();
